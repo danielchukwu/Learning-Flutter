@@ -87,3 +87,10 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+
+
+  # Add Font Fredoka
+fonts:
+  -family: Fredoka
+  fonts:
+    -asset: fonts/Fredokaa.ttf

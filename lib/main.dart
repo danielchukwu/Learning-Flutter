@@ -8,7 +8,16 @@ void main() {runApp(MaterialApp(
         backgroundColor: Colors.red[900],
       ),
       body: const Center(
-          child : Text("Follow dwayne johnson"),
+          child : Text(
+            "Follow dwayne johnson",
+            style: TextStyle(
+              fontSize: 20,
+              fontWeight: FontWeight.bold,
+              letterSpacing: 2,
+              color: Colors.grey,
+              fontFamily: 'Fredoka',
+            ),
+          ),
       ),
       floatingActionButton: FloatingActionButton(
         child: Text("click"),
